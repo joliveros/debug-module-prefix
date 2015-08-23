@@ -1,0 +1,33 @@
+{
+  "name": "debug-module-prefix",
+  "version": "0.0.0",
+  "description": "debug prefixed with the project name",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=debug-module-prefix* mocha *.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joliveros/debug-module-prefix.git"
+  },
+  "keywords": [
+    "debug",
+    "module",
+    "project",
+    "prefix"
+  ],
+  "author": "joliveros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joliveros/debug-module-prefix/issues"
+  },
+  "homepage": "https://github.com/joliveros/debug-module-prefix#readme",
+  "devDependencies": {
+    "catch-stdout": "0.0.1",
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
