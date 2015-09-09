@@ -1,6 +1,6 @@
 {
   "name": "debug-module-prefix",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "debug prefixed with the project name",
   "main": "index.js",
   "scripts": {
