@@ -1,3 +1,11 @@
 module.exports = function(str){
-  return require('debug')(require(process.env.PWD +'/package.json').name + ':' + str);
+  var prefix;
+  if(process.env.PWD){
+    prefix = require(prefix +'/package.json').name;
+  }
+  else{
+    prefix = window.DEBUG
+  }
+
+  return require('debug')( prefix + ':' + str);
 }
