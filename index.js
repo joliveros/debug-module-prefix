@@ -1,6 +1,6 @@
 module.exports = function(str){
   var prefix;
-  if(process){
+  if(process.env.PWD){
     prefix = require(process.env.PWD +'/package.json').name;
   }
   else{
